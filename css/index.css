@@ -1,0 +1,81 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header CSS*/
+
+header {
+    display: block;
+    text-align: center;
+    background-color: #FFFFFF;
+    box-shadow: 1px 2px 3px 1px #999999;
+    margin: 0;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    max-height: 95px;
+    overflow: hidden;
+    font-family: Roboto;
+    color: black;
+}
+
+.head {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.item_buttons {
+    margin-right: 40px;
+}
+
+.nav_logo {
+    width: 170px;
+    height: 32px;
+    margin-right: 143px;
+}
+
+.nav_buttons .nav_content {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav_buttons {
+    text-align:center;
+}
+
+a {
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.nav_button {
+    display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center;
+
+    margin: 20px 120px 20px;
+    width: 170px;
+    height: 55px;
+    background-color: #EF6C41;
+    border-radius: 8px;
+
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+/*Main CSS*/
+.Content {
+    background-color: #9eeaf9;
+}
+
+
+/*Footer CSS*/
+.foot {
+    background-color: #1a1d20;
+}
